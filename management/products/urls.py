@@ -5,12 +5,7 @@ from .views import upload_csv,ProductCreateView,ProductDeleteView,ProductListVie
 from .views import ProductRetrieveUpdateDestroy
 from rest_framework.routers import DefaultRouter
 
-# router = DefaultRouter()
-# router.register(r'products', ProductViewSet)
 
-# urlpatterns = [
-#     path('', include(router.urls)),
-# ]
 urlpatterns = [
     
     path('product/',product_list,name='product-list'),
