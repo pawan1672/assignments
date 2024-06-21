@@ -1,5 +1,5 @@
 from django.db import models
-from .managers import ProductManager#tTo Integrate manager with the model
+from .managers import ProductManager#To Integrate manager with the model
 # Create your models here.
 class Product(models.Model):
     name = models.CharField(max_length=100)
